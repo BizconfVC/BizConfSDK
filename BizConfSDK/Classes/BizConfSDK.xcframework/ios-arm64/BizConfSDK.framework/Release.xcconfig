@@ -1,0 +1,17 @@
+//
+//  releasebuild.xcconfig
+//  HexMeet
+//
+//  Created by linlin li on 2018/11/27.
+//  Copyright © 2018 fo. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Release.xcconfig
+#include "Base.xcconfig"
+OTHER_SWIFT_FLAGS = -DRELEASE
+
+// 导入pod对应的xcconfig
+#include "Pods/Target Support Files/Pods-BVProNext-SDK-iOS/Pods-BVProNext-SDK-iOS.release.xcconfig"

@@ -1,0 +1,17 @@
+//
+//  debugbuild.xcconfig
+//  easyVideo-iOS
+//
+//  Created by quanhao huang on 2020/1/8.
+//  Copyright © 2020 quanhao huang. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Debug.xcconfig
+#include "Base.xcconfig"
+OTHER_SWIFT_FLAGS = -DDEBUG
+
+// 导入pod对应的xcconfig
+#include "Pods/Target Support Files/Pods-BVProNext-SDK-iOS/Pods-BVProNext-SDK-iOS.debug.xcconfig"
