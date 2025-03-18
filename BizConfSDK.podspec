@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/BizconfVC'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liuhongfei' => 'hongfei_liu@bizconf.cn' }
-  s.source           = { :git => 'https://github.com/liuhongfei/BizConfSDK.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '12.0'
+  s.source           = { :git => 'https://github.com/BizconfVC/BizConfSDK.git', :tag => s.version.to_s }
   s.platform         = :ios
+  s.ios.deployment_target = '12.0'
   s.xcconfig              = { "BUILD_LIBRARY_FOR_DISTRIBUTION" => "YES" }
   s.pod_target_xcconfig   = { "VALID_ARCHS" => "arm64 armv7 x86_64", "DEFINES_MODULE" => "YES" }
   s.user_target_xcconfig  = { "VALID_ARCHS" => "arm64 armv7 x86_64", "DEFINES_MODULE" => "YES" }
